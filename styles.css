@@ -1,0 +1,40 @@
+body {
+    background-color:  	#f9f9f9;
+}
+
+h1, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sidebar {
+    position: absolute;
+    width: 25%;
+    text-align: center;
+}
+
+#game-board {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+    min-width: 400px;
+    z-index: 1;
+}
+
+.square {
+    width: 29%;
+}
+
+#game-over {
+    opacity: 50%;
+    background-color: #f9f9f9;
+    position: absolute;
+    width: 44%;
+    height: 597.5px;
+    margin: auto;
+    margin-left: 27.5%;
+    top: 90px;
+    text-align: center;
+    z-index: 0;
+}
